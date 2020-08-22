@@ -21,6 +21,7 @@ public class Main {
                         + adress.getApartment()
         );
 
+        // Task 2
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter rectangle sides:");
         Rectangle rectangle = new Rectangle();
@@ -31,6 +32,7 @@ public class Main {
                 + ", perimeter: " + rectangle.perimeterCalculator()
         );
 
+        // Task 4
         Computer[] computers = new Computer[5];
 
         for (int i = 0; i < computers.length; i++) {

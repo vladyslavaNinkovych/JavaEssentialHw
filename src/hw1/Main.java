@@ -27,7 +27,7 @@ public class Main {
         Rectangle rectangle = new Rectangle();
         rectangle.side1 = sc.nextDouble();
         rectangle.side2 = sc.nextDouble();
-        ;
+
         System.out.println("Area: " + rectangle.areaCalculator()
                 + ", perimeter: " + rectangle.perimeterCalculator()
         );

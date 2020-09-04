@@ -20,5 +20,9 @@ public class Main {
         for (Teacher teacher : teachers) {
             System.out.println(teacher.toString());
         }
+
+        for (Teacher teacher : teachers) {
+            System.out.println(teacher.getName() + " " + teacher.getSubject());
+        }
     }
 }

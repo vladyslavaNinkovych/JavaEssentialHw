@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Teacher> teachers = new ArrayList<Teacher>();
+        ArrayList<Teacher> teachers = new ArrayList<>();
         Teacher t1 = new Teacher("teacher1", "Geography");
         Teacher t2 = new Teacher("teacher2", "Biology");
         Teacher t3 = new Teacher("teacher3", "Chemistry");

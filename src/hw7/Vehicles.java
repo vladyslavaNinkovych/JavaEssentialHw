@@ -4,6 +4,7 @@ public enum Vehicles {
     CAR(100, "yellow"), PLANE(200, "black"), TRAIN(400, "red"), BOAT(500, "green");
 
     private int price;
+    private String colour;
 
     Vehicles(int price, String colour) {
         this.price = price;
@@ -25,8 +26,6 @@ public enum Vehicles {
     public void setColour(String colour) {
         this.colour = colour;
     }
-
-    private String colour;
 
     @Override
     public String toString() {

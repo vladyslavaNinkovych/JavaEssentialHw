@@ -10,7 +10,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        calc.add(a,b);
-        calc.div(a,b);
+        System.out.println(calc.add(a,b));
+        System.out.println(calc.div(a,b));
     }
 }
